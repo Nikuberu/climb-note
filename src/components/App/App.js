@@ -3,9 +3,7 @@ import './App.css';
 import screen1 from '../../images/screen1.png'
 import screen2 from '../../images/screen2.png'
 import screen3 from '../../images/screen3.png'
-import icon from '../../images/icon.png'
 import Footer from '../Footer/Footer'
-import { NavLink } from 'react-router-dom';
 
 class App extends Component {
   render() {

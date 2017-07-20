@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import '../App/App.css';
 import './PrivacyPolicy.css'
-import icon from '../../images/icon.png'
 import Footer from '../Footer/Footer'
-import { NavLink } from 'react-router-dom';
 
 class PrivacyPolicy extends Component {
   render() {
@@ -26,11 +24,11 @@ class PrivacyPolicy extends Component {
           <p>For a better experience while using our Service, I may require you to provide us with certain
               personally identifiable information, including but not limited to users name, pictures, audio, videos, and location.
             The information that I request will be retained by us and used as described in this privacy policy.</p>
-          <p>The app does use third party services that may collect information used to identify you. <strong>Google Analytics (Google Inc.)</strong> Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services. Google may use the Data collected to contextualize and personalize the ads of its own advertising network. Personal Data collected: Cookies and Usage Data. Place of processing: US – <a className='privacy-link' href='https://www.google.com/intl/en/policies/privacy/' target="_blank">Privacy Policy</a> – <a className='privacy-link' href='https://tools.google.com/dlpage/gaoptout?hl=en' target="_blank">Opt Out</a>
+          <p>The app does use third party services that may collect information used to identify you. <strong>Google Analytics (Google Inc.)</strong> Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services. Google may use the Data collected to contextualize and personalize the ads of its own advertising network. Personal Data collected: Cookies and Usage Data. Place of processing: US – <a className='privacy-link' href='https://www.google.com/intl/en/policies/privacy/' target="_blank"  rel="noopener noreferrer">Privacy Policy</a> – <a className='privacy-link' href='https://tools.google.com/dlpage/gaoptout?hl=en' target="_blank"  rel="noopener noreferrer">Opt Out</a>
           <strong>Facebook Analytics for Apps (Facebook, Inc.)</strong>
           Facebook Analytics for Apps is an analytics service provided by Facebook, Inc.
           Personal Data collected: Usage Data and various types of Data as specified in the privacy policy of the service.
-          Place of processing: US – <a className='privacy-link' href='https://www.facebook.com/about/privacy/' target="_blank">Privacy Policy</a>.</p>
+          Place of processing: US – <a className='privacy-link' href='https://www.facebook.com/about/privacy/' target="_blank"  rel="noopener noreferrer">Privacy Policy</a>.</p>
         </section>
 
         <section>
@@ -106,7 +104,7 @@ class PrivacyPolicy extends Component {
           <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
               me.</p>
           <p>This Privacy Policy page was created at <a className='privacy-link' href="https://privacypolicytemplate.net"
-                                                        target="_blank">privacypolicytemplate.net</a>.</p>
+                                                        target="_blank"  rel="noopener noreferrer">privacypolicytemplate.net</a>.</p>
         </section>
         <Footer />
       </div>
