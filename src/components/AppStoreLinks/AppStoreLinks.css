@@ -1,0 +1,43 @@
+.info, .app-links-wrapper, .release-note-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  width: 300px;
+}
+
+.info-title {
+  align-self: center;
+}
+
+.app-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-store-link {
+  display:inline-block;
+  overflow:hidden;
+  background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;
+  width:135px;
+  height:40px;
+  background-size:contain;
+}
+
+.play-store-link{
+  width:135px;
+}
+
+.release-sub-title{
+  font-size: 17px;
+}
+
+.release-list li{
+  font-size: 14px;
+  list-style-type: circle;
+  margin: 2.5px 0 2.5px 15px;
+}
+
+.release-sub-title {
+  margin: 5px 0;
+}

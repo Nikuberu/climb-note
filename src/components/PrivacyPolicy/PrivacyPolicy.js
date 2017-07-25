@@ -101,8 +101,8 @@ class PrivacyPolicy extends Component {
 
         <section>
           <p><strong>Contact Us</strong></p>
-          <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-              me.</p>
+          <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to <a href="mailto:climbnoteinfo@gmail.com" target="_top">contact
+              me</a>.</p>
           <p>This Privacy Policy page was created at <a className='privacy-link' href="https://privacypolicytemplate.net"
                                                         target="_blank"  rel="noopener noreferrer">privacypolicytemplate.net</a>.</p>
         </section>

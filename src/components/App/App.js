@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
+import Slideshow from '../Slideshow/Slideshow';
+import AppStoreLinks from '../AppStoreLinks/AppStoreLinks';
 import './App.css';
-import screen1 from '../../images/screen1.png'
-import screen2 from '../../images/screen2.png'
-import screen3 from '../../images/screen3.png'
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   render() {
@@ -17,10 +16,9 @@ class App extends Component {
             </p>
           </div>
         </div>
-        <div className="App-body">
-          <img src={screen3} alt='screenshot1'/>
-          <img src={screen1} alt='screenshot2'/>
-          <img src={screen2} alt='screenshot3'/>
+        <div className='App-body'>
+          <Slideshow />
+          <AppStoreLinks />
         </div>
         <Footer />
       </div>

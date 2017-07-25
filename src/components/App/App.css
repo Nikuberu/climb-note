@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +39,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 640px;
+  background-position: center 0;
+  height: 560px;
   position: relative;
   align-items: flex-end;
   display: flex;
@@ -51,11 +55,6 @@
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
-}
-
-.App-body img {
-  width: 300px;
-  height: 533.33px;
 }
 
 .App-footer {

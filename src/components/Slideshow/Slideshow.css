@@ -1,0 +1,14 @@
+.screenshot {
+  width: 300px;
+  height: 533.33px;
+}
+
+.slideshow-wrapepr {
+  width: 300px;
+  height: 533.33px;
+  margin: 30px 0;
+}
+
+.slick-arrow, .slick-next {
+  display: none;
+}

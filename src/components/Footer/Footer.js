@@ -15,7 +15,7 @@ class Footer extends Component {
           </li>
           <li>
             <NavLink exact activeClassName='active' to='/privacy_policy' className='privacy-policy-link link'>
-              Privacy
+              Privacy Policy
             </NavLink>
           </li>
         </ul>
